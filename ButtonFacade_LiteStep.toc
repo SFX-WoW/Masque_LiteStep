@@ -1,0 +1,17 @@
+## Interface: 20400
+
+## Title: ButtonFacade: |cffff8000LiteStep|r
+## Notes: LiteStep skin for Button Facade.
+## Version: 2.4.5
+
+## Author: StormFX
+## X-eMail: stormfx@gmail.com
+## X-Website: http://www.wowace.com
+## X-AceForum: 13279
+## X-RelSite-WoWI: 8882
+## X-Credits: JJ Sheets for Button Facade. Saynt for LiteStep.
+
+## X-Category: Action Bars
+## OptionalDeps: LibButtonFacade, ButtonFacade
+
+Skins.lua
