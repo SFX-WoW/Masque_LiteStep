@@ -12,6 +12,7 @@ LibButtonFacade:AddSkin("LiteStep",{
 	Backdrop = {
 		Width = 36,
 		Height = 36,
+		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Backdrop]],
 	},
 	Icon = {
@@ -22,13 +23,15 @@ LibButtonFacade:AddSkin("LiteStep",{
 	Border = {
 		Width = 36,
 		Height = 36,
-		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Equip]],
 		BlendMode = "ADD",
+		Color = {0, 1, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Border]],
 	},
 	Flash = {
 		Width = 36,
 		Height = 36,
-		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Flash]],
+		Color = {1, 0, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Overlay]],
 	},
 	Cooldown = {
 		Width = 32,
@@ -42,20 +45,22 @@ LibButtonFacade:AddSkin("LiteStep",{
 	AutoCastable = {
 		Width = 64,
 		Height = 64,
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 		OffsetX = 0.5,
 		OffsetY = -0.5,
+		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
 	Normal = {
 		Width = 36,
 		Height = 36,
-		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Normal]],
 		Static = true,
+		Color = {1, 1, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Normal]],
 	},
 	Pushed = {
 		Width = 36,
 		Height = 36,
-		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Pushed]],
+		Color = {0, 0, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Overlay]],
 	},
 	Disabled = {
 		Hide = true,
@@ -63,8 +68,9 @@ LibButtonFacade:AddSkin("LiteStep",{
 	Checked = {
 		Width = 36,
 		Height = 36,
-		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Checked]],
 		BlendMode = "ADD",
+		Color = {0, 0.75, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Border]],
 	},
 	Gloss = {
 		Width = 36,
@@ -74,8 +80,9 @@ LibButtonFacade:AddSkin("LiteStep",{
 	Highlight = {
 		Width = 36,
 		Height = 36,
-		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Highlight]],
 		BlendMode = "ADD",
+		Color = {1, 1, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Border]],
 	},
 	HotKey = {
 		Width = 36,
@@ -93,6 +100,22 @@ LibButtonFacade:AddSkin("LiteStep",{
 		Width = 36,
 		Height = 10,
 		OffsetY = -10,
+	},
+	-- Skin data end.
+
+},true)
+
+-- LiteStep
+LibButtonFacade:AddSkin("LiteStep XLT",{
+
+	-- Skin data start.
+	Template = "LiteStep",
+	Normal = {
+		Width = 36,
+		Height = 36,
+		Static = true,
+		Color = {1, 1, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Lite]],
 	},
 	-- Skin data end.
 
