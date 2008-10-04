@@ -1,4 +1,4 @@
---[[ LiteStep for ButtonFacade ]]
+--[[ LiteStep skin for ButtonFacade ]]
 
 local LibButtonFacade = LibStub("LibButtonFacade",true)
 if not LibButtonFacade then
