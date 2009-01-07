@@ -1,12 +1,12 @@
---[[ LiteStep skin for ButtonFacade ]]
+--[[ LiteStep @project-version@ ]]
 
-local LibButtonFacade = LibStub("LibButtonFacade",true)
-if not LibButtonFacade then
+local LBF = LibStub("LibButtonFacade", true)
+if not LBF then
 	return
 end
 
 -- LiteStep
-LibButtonFacade:AddSkin("LiteStep",{
+LBF:AddSkin("LiteStep", {
 
 	-- Skin data start.
 	Backdrop = {
@@ -23,7 +23,7 @@ LibButtonFacade:AddSkin("LiteStep",{
 	Flash = {
 		Width = 36,
 		Height = 36,
-		Color = {1, 0, 0, 1},
+		Color = {1, 0, 0, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Overlay]],
 	},
 	Cooldown = {
@@ -35,7 +35,7 @@ LibButtonFacade:AddSkin("LiteStep",{
 		Height = 32,
 		OffsetX = 1,
 		OffsetY = -1,
-		AboveNormal = true;
+		AboveNormal = true,
 	},
 	Normal = {
 		Width = 36,
@@ -47,14 +47,13 @@ LibButtonFacade:AddSkin("LiteStep",{
 	Pushed = {
 		Width = 36,
 		Height = 36,
-		Color = {0, 0, 0, 1},
+		Color = {0, 0, 0, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Overlay]],
 	},
 	Border = {
 		Width = 36,
 		Height = 36,
 		BlendMode = "ADD",
-		Color = {0, 1, 0, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Border]],
 	},
 	Disabled = {
@@ -105,10 +104,10 @@ LibButtonFacade:AddSkin("LiteStep",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
 
 -- LiteStep
-LibButtonFacade:AddSkin("LiteStep XLT",{
+LBF:AddSkin("LiteStep XLT", {
 
 	-- Skin data start.
 	Template = "LiteStep",
@@ -121,4 +120,4 @@ LibButtonFacade:AddSkin("LiteStep XLT",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
