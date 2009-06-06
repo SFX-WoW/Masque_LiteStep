@@ -106,7 +106,7 @@ LBF:AddSkin("LiteStep", {
 
 }, true)
 
--- LiteStep
+-- LiteStep XLT
 LBF:AddSkin("LiteStep XLT", {
 
 	-- Skin data start.

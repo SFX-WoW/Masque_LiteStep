@@ -5,8 +5,9 @@
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com/projects/buttonfacade_litestep
-## X-Category: Action Bars
-## X-Credits: JJ Sheets, Saynt
-## OptionalDeps: LibButtonFacade, ButtonFacade
+## X-Category: Interface Enhancements
+## X-Credits: Saynt
+## X-WoWI-ID: 8882
+## Dependencies: ButtonFacade
 
 Skins.lua
