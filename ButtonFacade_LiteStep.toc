@@ -1,7 +1,15 @@
-## Interface: 30200
+## Interface: 30300
 ## Title: ButtonFacade: |cffff8000LiteStep|r
-## Version: 3.2.@project-revision@
-## Notes: LiteStep skin for Button Facade.
+## Version: 3.3.@project-revision@
+## Notes: LiteStep skin for ButtonFacade.
+## Notes-deDE: LiteStep Skins für ButtonFacade.
+## Notes-esMX: LiteStep texturas para ButtonFacade.
+## Notes-esES: LiteStep texturas para ButtonFacade.
+## Notes-frFR: Skin LiteStep pour ButtonFacade.
+## Notes-koKR: ButtonFacade에 대한 LiteStep 스킨.
+## Notes-ruRU: LiteStep Шкурки для ButtonFacade.
+## Notes-zhCN: 为ButtonFacade LiteStep皮肤。
+## Notes-zhTW: LiteStep皮膚的ButtonFacade。
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com/projects/buttonfacade_litestep
