@@ -54,6 +54,7 @@ LBF:AddSkin("LiteStep", {
 		Width = 36,
 		Height = 36,
 		BlendMode = "ADD",
+		Color = {0, 1, 0, 0.3},
 		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Border]],
 	},
 	Disabled = {
