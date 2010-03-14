@@ -68,7 +68,6 @@ LBF:AddSkin("LiteStep", {
 		Height = 32,
 		OffsetX = 1,
 		OffsetY = -1,
-		AboveNormal = true,
 	},
 	AutoCastable = {
 		Width = 64,
