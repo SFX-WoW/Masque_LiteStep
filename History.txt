@@ -1,5 +1,9 @@
 Release History
 
+3.3.52
+
+- Removed the border color.
+
 3.3.51
 
 - Equip border color.
