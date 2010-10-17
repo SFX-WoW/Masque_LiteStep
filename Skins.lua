@@ -8,19 +8,12 @@ LBF:AddSkin("LiteStep", {
 	Backdrop = {
 		Width = 36,
 		Height = 36,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Backdrop]],
 	},
 	Icon = {
 		Width = 32,
 		Height = 32,
 		TexCoords = {0.07,0.93,0.07,0.93},
-	},
-	Pushed = {
-		Width = 36,
-		Height = 36,
-		Color = {0, 0, 0, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Overlay]],
 	},
 	Flash = {
 		Width = 36,
@@ -32,11 +25,16 @@ LBF:AddSkin("LiteStep", {
 		Width = 32,
 		Height = 32,
 	},
+	Pushed = {
+		Width = 36,
+		Height = 36,
+		Color = {0, 0, 0, 0.5},
+		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Overlay]],
+	},
 	Normal = {
 		Width = 36,
 		Height = 36,
 		Static = true,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Normal]],
 	},
 	Disabled = {
@@ -55,18 +53,10 @@ LBF:AddSkin("LiteStep", {
 		BlendMode = "ADD",
 		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Border]],
 	},
-	Highlight = {
+	Gloss = {
 		Width = 36,
 		Height = 36,
-		BlendMode = "ADD",
-		Color = {1, 1, 1, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Border]],
-	},
-	AutoCast = {
-		Width = 32,
-		Height = 32,
-		OffsetX = 1,
-		OffsetY = -1,
+		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Gloss]],
 	},
 	AutoCastable = {
 		Width = 64,
@@ -75,16 +65,17 @@ LBF:AddSkin("LiteStep", {
 		OffsetY = -0.5,
 		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
-	Gloss = {
+	Highlight = {
 		Width = 36,
 		Height = 36,
-		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Gloss]],
+		BlendMode = "ADD",
+		Color = {1, 1, 1, 0.5},
+		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Border]],
 	},
-	HotKey = {
+	Name = {
 		Width = 36,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = 10,
+		OffsetY = -10,
 	},
 	Count = {
 		Width = 36,
@@ -92,10 +83,17 @@ LBF:AddSkin("LiteStep", {
 		OffsetX = -2,
 		OffsetY = -10,
 	},
-	Name = {
+	HotKey = {
 		Width = 36,
 		Height = 10,
-		OffsetY = -10,
+		OffsetX = -2,
+		OffsetY = 10,
+	},
+	AutoCast = {
+		Width = 32,
+		Height = 32,
+		OffsetX = 1,
+		OffsetY = -1,
 	},
 }, true)
 
@@ -106,7 +104,6 @@ LBF:AddSkin("LiteStep XLT", {
 		Width = 36,
 		Height = 36,
 		Static = true,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_LiteStep\Textures\Lite]],
 	},
 }, true)

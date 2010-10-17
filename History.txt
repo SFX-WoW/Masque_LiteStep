@@ -1,5 +1,9 @@
 Release History
 
+4.0.53
+
+- Update ToC to 4000.
+
 3.3.52
 
 - Removed the border color.

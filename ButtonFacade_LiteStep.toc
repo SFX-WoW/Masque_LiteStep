@@ -1,6 +1,6 @@
-## Interface: 30300
+## Interface: 40000
 ## Title: ButtonFacade: |cffff8000LiteStep|r
-## Version: 3.3.@project-revision@
+## Version: 4.0.@project-revision@
 ## Notes: LiteStep skin for ButtonFacade.
 ## Notes-deDE: LiteStep Skins für ButtonFacade.
 ## Notes-esMX: LiteStep texturas para ButtonFacade.
