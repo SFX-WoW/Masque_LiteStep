@@ -5,6 +5,7 @@ if not LBF then return end
 
 -- LiteStep
 LBF:AddSkin("LiteStep", {
+	LBF_Version = 40000,
 	Backdrop = {
 		Width = 36,
 		Height = 36,
@@ -75,19 +76,20 @@ LBF:AddSkin("LiteStep", {
 	Name = {
 		Width = 36,
 		Height = 10,
-		OffsetY = -10,
+		OffsetY = 3,
 	},
 	Count = {
 		Width = 36,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = -10,
+		OffsetX = -1,
+		OffsetY = 3,
+		FontSize = 13,
 	},
 	HotKey = {
 		Width = 36,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = 10,
+		OffsetX = -1,
+		OffsetY = -5,
 	},
 	AutoCast = {
 		Width = 32,
