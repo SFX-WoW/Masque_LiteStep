@@ -1,6 +1,6 @@
-## Interface: 50200
+## Interface: 50300
 ## Title: Masque: |cffff8000LiteStep|r
-## Version: 5.2.@project-revision@
+## Version: 5.3.@project-revision@
 ## Notes: LiteStep skins for Masque.
 ## Notes-zhTW: Masque的LiteStep皮膚。
 ## Author: StormFX
