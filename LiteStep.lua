@@ -1,12 +1,13 @@
 --[[
+
 	This file is part of 'Masque: LiteStep', an add-on for World of Warcraft. For license information,
 	please see the included License.txt file.
 
-	* File.....: LiteStep.lua
-	* Revision.: @file-revision@
-	* Author...: StormFX
+	* File...: LiteStep.lua
+	* Date...: @file-date-iso@
+	* Hash...: @file-abbreviated-hash@
+	* Author.: StormFX
 
-	LiteStep Skins
 ]]
 
 local MSQ = LibStub("Masque", true)
@@ -15,7 +16,7 @@ if not MSQ then return end
 -- LiteStep
 MSQ:AddSkin("LiteStep", {
 	Author = "StormFX",
-	Version = "6.2.0",
+	Version = "@project-version@",
 	Shape = "Square",
 	Masque_Version = 60200,
 	Backdrop = {
@@ -35,6 +36,10 @@ MSQ:AddSkin("LiteStep", {
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Overlay]],
 	},
 	Cooldown = {
+		Width = 32,
+		Height = 32,
+	},
+	ChargeCooldown = {
 		Width = 32,
 		Height = 32,
 	},
