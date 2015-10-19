@@ -1,3 +1,8 @@
+### 6.2.2 ###
+
+- Fix links in Readme.
+- Update Changelog.
+
 ### 6.2.1 ###
 
 - SVN to Git conversion.
@@ -110,4 +115,5 @@
 ### 3.0.2 ###
 
 - ToC to 30000.
+- Update version.
 - Update files.
