@@ -19,8 +19,8 @@ This skin set contains the following skins:
 1. Download the package from one of the following sites:
    [LIST]
    [*] [URL="https://mods.curse.com/addons/wow/masque-litestep"]Curse[/URL]
-   [*] [URL="http://www.wowinterface.com/downloads/info8882"]WoW Interface[/URL]
    [*] [URL="https://www.wowace.com/projects/masque-litestep"]WoW Ace[/URL]
+   [*] [URL="http://www.wowinterface.com/downloads/info8882"]WoW Interface[/URL]
    [/LIST]
 2. Extract the package to your "World of Warcraft\Interface\AddOns" directory.
 
