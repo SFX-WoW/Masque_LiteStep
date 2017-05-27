@@ -3,7 +3,7 @@
 
 [I]LiteStep[/I] is an add-on for for [URL="https://worldofwarcraft.com"]World of Warcraft[/URL] that adds a set of skins for [URL="https://www.wowace.com/projects/masque"]Masque[/URL].
 
-[I][B]Note:[/B] You [B]must[/B] have [URL="http://www.wowinterface.com/downloads/info12097"]Masque[/URL] installed to use this add-on.[/I]
+[I][B]Note:[/B] You must have [URL="http://www.wowinterface.com/downloads/info12097"]Masque[/URL] installed to use this add-on.[/I]
 
 [COLOR=Orange][SIZE="4"]Skins[/SIZE][/COLOR]
 
