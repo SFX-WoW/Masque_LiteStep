@@ -4,8 +4,6 @@
 	please see the included License.txt file.
 
 	* File...: LiteStep.lua
-	* Date...: @file-date-iso@
-	* Hash...: @file-abbreviated-hash@
 	* Author.: StormFX
 
 ]]
@@ -13,12 +11,15 @@
 local MSQ = LibStub("Masque", true)
 if not MSQ then return end
 
+local AddOn, _ = ...
+local Version = GetAddOnMetadata(AddOn, "Version")
+
 -- LiteStep
 MSQ:AddSkin("LiteStep", {
 	Author = "StormFX",
-	Version = "@project-version@",
+	Version = Version,
 	Shape = "Square",
-	Masque_Version = 60200,
+	Masque_Version = 70200,
 	Backdrop = {
 		Width = 36,
 		Height = 36,
