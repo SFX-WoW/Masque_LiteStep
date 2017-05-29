@@ -34,7 +34,7 @@ This skin set contains the following skins:
 
 [COLOR=Orange][SIZE="4"]Credits[/SIZE][/COLOR]
 
-Thanks to [URL="https://www.wowace.com/members/saynt2"]Saynt[/URL] for the original [I]LiteStep[/I] skin.
+[*] [URL="https://www.wowace.com/members/saynt2"]Saynt[/URL] for the original [I]LiteStep[/I] skin.
 
 [COLOR=Orange][SIZE="4"]Feedback[/SIZE][/COLOR]
 

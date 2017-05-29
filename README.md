@@ -29,7 +29,7 @@ Install the package through your preferred add-on manager. You can also install 
 
 ### Credits ###
 
-Thanks to [Saynt](https://www.wowace.com/members/saynt2) for the original _LiteStep_ skin.
+- [Saynt](https://www.wowace.com/members/saynt2) for the original _LiteStep_ skin.
 
 ### Feedback ###
 
