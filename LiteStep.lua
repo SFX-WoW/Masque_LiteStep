@@ -39,6 +39,7 @@ MSQ:AddSkin("LiteStep", {
 	Cooldown = {
 		Width = 32,
 		Height = 32,
+		Color = {0, 0, 0, 0.7},
 	},
 	ChargeCooldown = {
 		Width = 32,
@@ -61,14 +62,15 @@ MSQ:AddSkin("LiteStep", {
 	Checked = {
 		Width = 36,
 		Height = 36,
-		BlendMode = "ADD",
-		Color = {0, 0.8, 1, 0.8},
+		BlendMode = "BLEND",
+		Color = {0, 0.7, 0.9, 0.7},
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Border]],
 	},
 	Border = {
 		Width = 36,
 		Height = 36,
-		BlendMode = "ADD",
+		BlendMode = "BLEND",
+		Color = {0, 1, 0, 0.5},
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Border]],
 	},
 	Gloss = {
