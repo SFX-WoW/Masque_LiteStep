@@ -1,4 +1,4 @@
-package-as: Masque_Litestep
+package-as: Masque_LiteStep
 
 required-dependencies:
   - masque
