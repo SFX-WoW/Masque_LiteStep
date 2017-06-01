@@ -6,7 +6,7 @@ _**Note:** You must have [Masque][] installed to use this add-on._
 
 ### Skins ###
 
-This skin set contains the following skins:
+This set contains the following skins:
 
 - LiteStep
 - LiteStep XLT
@@ -23,10 +23,10 @@ Install the package through your preferred add-on manager. You can also install 
 
 ### Links ###
 
+- [Download Masque][Masque]
 - [Get More Skins](https://github.com/stormfx/masque/wiki/skin-list "Masque Skin List")
-- [Masque Project Page][Masque]
-- [Masque Facebook Page](https://www.facebook.com/masqueui "Masque on Facebook")
 - [Masque Wiki](https://github.com/stormfx/masque/wiki "Masque Wiki")
+- [Masque Facebook Page](https://www.facebook.com/masqueui "Masque on Facebook")
 
 ### Credits ###
 
@@ -36,4 +36,4 @@ Install the package through your preferred add-on manager. You can also install 
 
 For bug reports and suggestions, please use the [ticket system](https://github.com/stormfx/masque_litestep/issues) on GitHub.
 
-[Masque]: https://www.wowace.com/projects/masque (Masque Project Page)
+[Masque]: https://mods.curse.com/addons/wow/masque ("Download Masque")
