@@ -15,4 +15,5 @@
 ## X-Credits: Saynt
 ## X-WoWI-ID: 8882
 
-LiteStep.lua
+# Skins
+Skins.lua
