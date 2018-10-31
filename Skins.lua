@@ -45,6 +45,7 @@ MSQ:AddSkin("LiteStep", {
 	Authors = Authors,
 	Websites = Websites,
 	Description = L["A port of the original LiteStep skin by Saynt."],
+	Masque_Version = 80000,
 	Backdrop = {
 		Width = 36,
 		Height = 36,
