@@ -15,5 +15,8 @@
 ## X-Credits: Saynt
 ## X-WoWI-ID: 8882
 
+# Locales
+Locales.lua
+
 # Skins
 Skins.lua
