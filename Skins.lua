@@ -3,23 +3,48 @@
 	This file is part of 'Masque: LiteStep', an add-on for World of Warcraft. For license information,
 	please see the included License.txt file.
 
-	* File...: LiteStep.lua
-	* Author.: StormFX
+	* File....: Skins.lua
+	* Authors.: StormFX, Saynt
 
+	LiteStep Skins
 ]]
 
-local MSQ = LibStub("Masque", true)
+-- GLOBALS: GetAddOnMetadata, LibStub
+
+local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
 
-local AddOn, _ = ...
-local Version = GetAddOnMetadata(AddOn, "Version")
+----------------------------------------
+-- Locals
+----------------------------------------
 
+local AddOn, Core = ...
+
+-- Locale
+local L = Core.Locale
+
+-- Skin Info
+local Version = GetAddOnMetadata(AddOn, "Version")
+local Authors = {"StormFX", "|cff999999Saynt|r"}
+local Websites = {
+	"https://github.com/stormfx/masque_litestep",
+	"https://www.wowace.com/projects/masque-litestep",
+	"https://www.curseforge.com/wow/addons/masque-litestep",
+	"https://www.wowinterface.com/downloads/info8882",
+}
+
+----------------------------------------
 -- LiteStep
+----------------------------------------
+
 MSQ:AddSkin("LiteStep", {
-	Author = "StormFX",
-	Version = Version,
 	Shape = "Square",
-	Masque_Version = 70200,
+	Group = "LiteStep",
+	Order = 1,
+	Version = Version,
+	Authors = Authors,
+	Websites = Websites,
+	Description = L["A port of the original LiteStep skin by Saynt."],
 	Backdrop = {
 		Width = 36,
 		Height = 36,
@@ -122,9 +147,15 @@ MSQ:AddSkin("LiteStep", {
 	},
 }, true)
 
--- LiteStep XLT
-MSQ:AddSkin("LiteStep XLT", {
+----------------------------------------
+-- LiteStep - XLT
+----------------------------------------
+
+MSQ:AddSkin("LiteStep - XLT", {
+	Title = "XLT",
+	Order = 2,
 	Template = "LiteStep",
+	Description = L["An alternate version of LiteStep without borders."],
 	Normal = {
 		Width = 36,
 		Height = 36,
