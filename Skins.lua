@@ -62,15 +62,6 @@ MSQ:AddSkin("LiteStep", {
 		Color = {1, 0, 0, 0.3},
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Overlay]],
 	},
-	Cooldown = {
-		Width = 32,
-		Height = 32,
-		Color = {0, 0, 0, 0.7},
-	},
-	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-	},
 	Pushed = {
 		Width = 36,
 		Height = 36,
@@ -139,6 +130,15 @@ MSQ:AddSkin("LiteStep", {
 		Width = 36,
 		Height = 10,
 		OffsetY = -2,
+	},
+	Cooldown = {
+		Width = 30,
+		Height = 30,
+		Color = {0, 0, 0, 0.7},
+	},
+	ChargeCooldown = {
+		Width = 30,
+		Height = 30,
 	},
 	Shine = {
 		Width = 32,
