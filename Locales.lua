@@ -1,20 +1,20 @@
 --[[
 
-	This file is part of 'Masque: LiteStep', an add-on for World of Warcraft. For license information,
-	please see the included License.txt file.
+	This file is part of 'Masque: LiteStep', an add-on for World of Warcraft. For bug reports,
+	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_LiteStep.
 
-	* File....: Locales.lua
-	* Authors.: StormFX
+	* File...: Locales.lua
+	* Author.: StormFX
 
 ]]
 
--- GLOBALS: GetLocale
+-- GLOBALS: GetLocale, setmetatable
 
 local _, Core = ...
 
 ----------------------------------------
 -- Locales
-----------------------------------------
+---
 
 local L = {}
 
@@ -28,6 +28,7 @@ Core.Locale = setmetatable(L, {
 local Locale = GetLocale()
 
 if Locale == "enGB" or Locale == "enUS" then
+	-- enUS/enGB for Reference
 	--L["A port of the original LiteStep skin by Saynt."] = "A port of the original LiteStep skin by Saynt."
 	--L["An alternate version of LiteStep without borders."] = "An alternate version of LiteStep without borders."
 	return
