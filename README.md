@@ -1,33 +1,24 @@
+[![Build][SVG-Build]][Build]
+[![Discord][SVG-Discord]][Discord]
+
 ## About
 
-_LiteStep_ is an add-on for [World of Warcraft](https://worldofwarcraft.com "World of Warcraft") that adds a set of skins for [Masque][].
-
-_**Note:** You must have [Masque][] installed to use these skins._
+**Masque: LiteStep** is an add-on for [World of Warcraft] that adds a set of skins for [Masque].
 
 ## Skins
 
-This set contains the following skins:
+This set includes the following skins:
 
 - **LiteStep** - A port of the original _LiteStep_ skin by _Saynt_.
-- **LiteStep - XLT** - An alternate version of _LiteStep_ without borders.
+- **LiteStep - XLT** - An alternate version of **LiteStep** without borders.
+
+## Requirements
+
+This add-on requires [Masque].
 
 ## Installation
 
-Install the package through your preferred add-on manager. You can also install the add-on manually using the following steps:
-
-1. Download the package from one of the following sites:
-    - [GitHub](https://github.com/stormfx/masque_litestep "Download from GitHub")
-    - [WoW Ace](https://www.wowace.com/projects/masque-litestep "Download from WoW Ace")
-    - [CurseForge](https://www.curseforge.com/wow/addons/masque-litestep "Download from CurseForge")
-    - [WoW Interface](https://www.wowinterface.com/downloads/info8882 "Download from WoW Interface")  
-2. Extract the package to your `World of Warcraft\Interface\AddOns` directory.
-
-## Links
-
-- [Download Masque][Masque]
-- [Get More Skins](https://github.com/stormfx/masque/wiki/skin-list "Masque Skin List")
-- [Masque Wiki](https://github.com/stormfx/masque/wiki "Masque Wiki")
-- [Masque Facebook Page](https://www.facebook.com/masqueui "Masque on Facebook")
+Install the package through your preferred add-on manager. Alternatively, you can find manual instructions on the [project wiki][Wiki].
 
 ## Credits
 
@@ -35,10 +26,47 @@ Install the package through your preferred add-on manager. You can also install 
 
 ## Feedback
 
-For bug reports and suggestions, please use the [issue system](https://github.com/stormfx/masque_litestep/issues "Report an Issue") on GitHub.
+For bug reports and suggestions, use the [issue tracker]. Direct any questions or comments to [Discord].
 
 ## Localization
 
-To help translate _LiteStep_, please use the [localization system](https://www.wowace.com/projects/masque-litestep/localization "Translate on WoW Ace") on WoW Ace or [contribute directly](https://github.com/stormfx/masque_litestep "Translate on GitHub") on GitHub.
+To help translate this add-on, use the [localization system] on WoW Ace. Alternatively, you can use the [issue tracker].
 
-[Masque]: https://www.wowace.com/projects/masque (Download Masque)
+## Support
+
+If you'd like to support the development of this and other projects, you can use one of the options below.
+
+- [Donate via PayPal][Donate]
+- [Sponsor on GitHub][Sponsor]
+
+## Links
+
+- [Masque][Masque]
+- [CurseForge][CurseForge]
+- [WoW Ace][WoW Ace]
+- [WoW Interface]
+
+[Links]: #
+
+[Build]: https://github.com/SFX-WoW/Masque_LiteStep/actions?query=workflow%3ARelease (Build Status)
+[Discord]: https://discord.gg/DDVqkd6 (Join the Discord)
+
+[World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
+[Masque]: https://github.com/SFX-WoW/Masque (Download Masque)
+
+[Issue Tracker]: https://github.com/SFX-WoW/Masque_LiteStep/issues (Report an Issue)
+[Localization System]: https://www.wowace.com/projects/masque-litestep/localization (Translate on WoW Ace)
+[Wiki]: https://github.com/SFX-WoW/Masque_LiteStep/wiki (View the Wiki)
+
+[Donate]: https://www.paypal.me/stormfxi (Donate via PayPal)
+[Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
+
+[CurseForge]: https://www.curseforge.com/wow/addons/masque-litestep (View on CurseForge)
+[GitHub]: https://github.com/SFX-WoW/Masque_LiteStep (View on GitHub)
+[WoW Ace]: https://www.wowace.com/projects/masque-litestep (View on WoW Ace)
+[WoW Interface]: https://www.wowinterface.com/downloads/info8882 (View on WoW Interface)
+
+[Images]: #
+
+[SVG-Build]: https://img.shields.io/github/workflow/status/SFX-WoW/Masque_LiteStep/Release?label=Build&logo=github&logoColor=fff&style=flat-square
+[SVG-Discord]: https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=fff&style=flat-square
