@@ -8,8 +8,8 @@
 
 ## Notes: LiteStep skins for Masque.
 ## Notes-deDE: LiteStep-Skin für Masque.
-## Notes-esES: Skin LiteStep para Masque.
 ## Notes-esMX: Skin LiteStep para Masque.
+## Notes-esES: Skin LiteStep para Masque.
 ## Notes-frFR: Skins de LiteStep pour Masque.
 ## Notes-itIT: Skin LiteStep per Masque.
 ## Notes-ruRU: Скин LiteStep для Masque.
