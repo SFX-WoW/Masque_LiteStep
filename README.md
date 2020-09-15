@@ -9,7 +9,7 @@
 
 This set includes the following skins:
 
-- **LiteStep** - A port of the original _LiteStep_ skin by _Saynt_.
+- **LiteStep** - A port of the original _LiteStep_ skin for _cyCircled_.
 - **LiteStep - XLT** - An alternate version of **LiteStep** without borders.
 
 ## Requirements
@@ -22,7 +22,8 @@ Install the package through your preferred add-on manager. Alternatively, you ca
 
 ## Credits
 
-- _Saynt_ for the original _LiteStep_ skin.
+- [Sairen](https://www.wowace.com/members/_ForgeUser139308 "Sairen @ WoW Ace") for [cyCircled].
+- _Saynt_ for the **LiteStep** skin.
 
 ## Feedback
 
@@ -65,6 +66,8 @@ If you'd like to support the development of this and other projects, you can use
 [GitHub]: https://github.com/SFX-WoW/Masque_LiteStep (View on GitHub)
 [WoW Ace]: https://www.wowace.com/projects/masque-litestep (View on WoW Ace)
 [WoW Interface]: https://www.wowinterface.com/downloads/info8882 (View on WoW Interface)
+
+[cyCircled]: https://www.wowace.com/projects/cyCircled (cyCircled on WoW Ace)
 
 [Images]: #
 
