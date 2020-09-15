@@ -5,19 +5,24 @@
 # ## Interface: 11305
 #@end-non-retail@
 ## Title: Masque: LiteStep
-## Version: @project-version@
-## Author: StormFX
-## Dependencies: Masque
+
 ## Notes: LiteStep skins for Masque.
 ## Notes-deDE: LiteStep-Skin für Masque.
 ## Notes-esES: Skin LiteStep para Masque.
 ## Notes-esMX: Skin LiteStep para Masque.
+## Notes-frFR: Skins de LiteStep pour Masque.
 ## Notes-itIT: Skin LiteStep per Masque.
 ## Notes-ruRU: Скин LiteStep для Masque.
 ## Notes-zhTW: Masque的LiteStep皮膚。
-## X-Website: https://www.wowace.com/projects/masque-litestep
+
+## Version: @project-version@
+## Author: StormFX
+## Dependencies: Masque
+
+## X-Website: https://github.com/SFX-WoW/Masque_LiteStep
 ## X-Category: Interface Enhancements
 ## X-Credits: Saynt
+## X-Curse-Project-ID: 13599
 ## X-WoWI-ID: 8882
 
 # Locales
