@@ -40,13 +40,17 @@ local Websites = {
 
 MSQ:AddSkin("LiteStep", {
 	Shape = "Square",
+	Masque_Version = 80000,
 	Group = "LiteStep",
 	Order = 1,
+
+	-- Info
+	Description = L["A port of the original LiteStep skin by Saynt."],
 	Version = Version,
 	Authors = Authors,
 	Websites = Websites,
-	Description = L["A port of the original LiteStep skin by Saynt."],
-	Masque_Version = 80000,
+
+	-- Skin
 	Backdrop = {
 		Width = 36,
 		Height = 36,
