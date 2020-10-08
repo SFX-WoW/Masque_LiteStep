@@ -27,4 +27,4 @@
 - Updated the skin info for Masque's UI changes.
 - Updated the _Retail_ ToC to `80300`.
 - Updated frFR. (Peamouth44)
-- `MASQUE_VERSION` increased to `90000`.
+- Updated `Masque_Version` to `90000`.
