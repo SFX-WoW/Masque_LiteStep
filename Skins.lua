@@ -466,8 +466,8 @@ MSQ:AddSkin("LiteStep", {
 		-- SetAllPoints = nil,
 	},
 	AutoCastShine = {
-		Width = 32,
-		Height = 32,
+		Width = 34,
+		Height = 34,
 		Point = "CENTER",
 		RelPoint = "CENTER",
 		OffsetX = 1,
