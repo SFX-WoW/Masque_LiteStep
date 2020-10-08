@@ -40,7 +40,7 @@ local Websites = {
 
 MSQ:AddSkin("LiteStep", {
 	Shape = "Square",
-	Masque_Version = 80000,
+	Masque_Version = 90000,
 	Group = "LiteStep",
 	Order = 1,
 
