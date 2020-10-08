@@ -488,11 +488,11 @@ MSQ:AddSkin("LiteStep", {
 	ChargeCooldown = {
 		Width = 30,
 		Height = 30,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		-- SetAllPoints = nil,
 	},
 }, true)
 
