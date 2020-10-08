@@ -174,7 +174,7 @@ MSQ:AddSkin("LiteStep", {
 		Point = "TOPRIGHT",
 		RelPoint = "TOPRIGHT",
 		OffsetX = -2,
-		OffsetY = -5,
+		OffsetY = -3,
 	},
 	Count = {
 		JustifyH = "RIGHT",
@@ -184,8 +184,8 @@ MSQ:AddSkin("LiteStep", {
 		Height = 10,
 		Point = "BOTTOMRIGHT",
 		RelPoint = "BOTTOMRIGHT",
-		OffsetX = -1,
-		OffsetY = 4,
+		OffsetX = -2,
+		OffsetY = 2,
 	},
 	Duration = {
 		JustifyH = "CENTER",
@@ -264,10 +264,10 @@ MSQ:AddSkin("LiteStep", {
 		DrawLayer = "OVERLAY",
 		Width = 36,
 		Height = 10,
-		OffsetX = 0,
-		OffsetY = 4,
 		Point = "BOTTOM",
 		RelPoint = "BOTTOM",
+		OffsetX = 0,
+		OffsetY = 1,
 	},
 	Highlight = {
 		Texture = [[Interface\AddOns\Masque_LiteStep\Textures\Border]],
