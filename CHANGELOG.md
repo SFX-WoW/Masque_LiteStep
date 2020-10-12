@@ -1,30 +1,3 @@
-## 8.3.0
+## 9.0.0
 
-- Added _Classic_ support.
-- Added separate `Backdrop` textures for Action, Item and Pet buttons.
-- Added support for the following regions:
-  - `ContextOverlay`
-  - `IconBorder`
-  - `IconOverlay`
-  - `JunkIcon`
-  - `NewAction`
-  - `NewItem`
-  - `QuestBorder`
-  - `SearchOverlay`
-  - `SlotHighlight`
-  - `SpellHighlight`
-  - `UpgradeIcon`
-- Adjusted the size and/or position of the following regions:
-  - `AutoCastable`
-  - `AutoCastShine`
-  - `ChargeCooldown`
-  - `Count`
-  - `HotKey`
-  - `Name`
-- The following regions now use a color instead of a texture:
-  - `Flash`
-  - `Pushed`
-- Updated the skin info for Masque's UI changes.
-- Updated the _Retail_ ToC to `80300`.
-- Updated frFR. (Peamouth44)
-- Updated `Masque_Version` to `90000`.
+- Updated the `Interface` version for _Retail_ to `90001`.
