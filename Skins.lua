@@ -494,7 +494,7 @@ MSQ:AddSkin("LiteStep", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-}, true)
+})
 
 ----------------------------------------
 -- LiteStep - XLT
@@ -524,4 +524,4 @@ MSQ:AddSkin("LiteStep - XLT", {
 		UseStates = true,
 		-- SetAllPoints = nil,
 	},
-}, true)
+})
