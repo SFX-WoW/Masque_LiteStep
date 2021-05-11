@@ -1,11 +1,7 @@
-#@retail@
 ## Interface: 90005
-#@end-retail@
-#@non-retail@
-# ## Interface: 11306
-#@end-non-retail@
-## Title: Masque: LiteStep
+## Interface-Classic: 11307
 
+## Title: Masque: LiteStep
 ## Notes: LiteStep skins for Masque.
 ## Notes-deDE: LiteStep-Skin für Masque.
 ## Notes-esMX: Skins LiteStep para Masque.
