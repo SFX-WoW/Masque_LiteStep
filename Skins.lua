@@ -29,8 +29,9 @@ local Version = GetAddOnMetadata(AddOn, "Version")
 local Authors = {"StormFX", "|cff999999Saynt|r"}
 local Websites = {
 	"https://github.com/SFX-WoW/Masque_LiteStep",
-	"https://www.wowace.com/projects/masque-litestep",
 	"https://www.curseforge.com/wow/addons/masque-litestep",
+	"https://addons.wago.io/addons/masque-litestep",
+	"https://www.wowace.com/projects/masque-litestep",
 	"https://www.wowinterface.com/downloads/info8882",
 }
 
