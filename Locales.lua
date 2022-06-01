@@ -1,7 +1,7 @@
 --[[
 
 	This file is part of 'Masque: LiteStep', an add-on for World of Warcraft. For bug reports,
-	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_LiteStep.
+	documentation and license information, please visit https://github.com/SFX-WoW/Masque_LiteStep.
 
 	* File...: Locales.lua
 	* Author.: StormFX
