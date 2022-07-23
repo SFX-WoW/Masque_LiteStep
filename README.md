@@ -30,7 +30,7 @@ Install the package through your preferred add-on manager or extract the archive
 
 ## [Credits][Top]
 
-- _Saynt_ for the original **LiteStep** skin.
+- Saynt for the original _LiteStep_ skin.
 
 ## [Feedback][Top]
 
@@ -38,7 +38,7 @@ For bug reports and suggestions, use the [issue tracker]. Direct any questions o
 
 ## [Localization][Top]
 
-To help translate this add-on, use the [localization system] on WoW Ace. Alternatively, you can use the [issue tracker].
+To help translate this add-on, use the [localization system] on CurseForge. Alternatively, you can use the [issue tracker].
 
 ## [Links][Top]
 
@@ -48,7 +48,6 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
   - [GitHub]
   - [CurseForge]
   - [Wago.io]
-  - [WoW Ace]
   - [WoW Interface]
 
 [Links]: #
@@ -63,12 +62,11 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
 
 [Issue Tracker]: https://github.com/SFX-WoW/Masque_LiteStep/issues (Report an Issue)
-[Localization System]: https://www.wowace.com/projects/masque-litestep/localization (Translate on WoW Ace)
+[Localization System]: https://www.curseforge.com/wow/addons/masque-litestep/localization (Translate on CurseForge)
 
 [CurseForge]: https://www.curseforge.com/wow/addons/masque-litestep (View on CurseForge)
 [GitHub]: https://github.com/SFX-WoW/Masque_LiteStep (View on GitHub)
 [Wago.io]: https://addons.wago.io/addons/masque-litestep (View on Wago.io)
-[WoW Ace]: https://www.wowace.com/projects/masque-litestep (View on WoW Ace)
 [WoW Interface]: https://www.wowinterface.com/downloads/info8882 (View on WoW Interface)
 
 [Top]: #Top (Top of the Page)
