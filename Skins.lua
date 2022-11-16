@@ -10,19 +10,21 @@
 
 ]]
 
--- GLOBALS: GetAddOnMetadata, LibStub
-
 local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
 
 local AddOn, Core = ...
 
 ----------------------------------------
--- Locals
+-- Internal
 ---
 
--- Locale
 local L = Core.Locale
+
+----------------------------------------
+-- Local
+---
+
 local API_VERSION = 100000
 
 -- Skin Info
@@ -44,9 +46,9 @@ MSQ:AddSkin("LiteStep", {
 	Shape = "Square",
 
 	-- Info
+	Authors = Authors,
 	Description = L["A port of the original LiteStep skin by Saynt."],
 	Version = Version,
-	Authors = Authors,
 	Websites = Websites,
 
 	-- UI
@@ -526,6 +528,8 @@ MSQ:AddSkin("LiteStep", {
 	},
 	Cooldown = {
 		-- Texture = nil,
+		-- EdgeTexture = [[Interface\AddOns\Masque\Textures\Cooldown\Edge]],
+		-- PulseTexture = [[Interface\Cooldown\star4]],
 		Color = {0, 0, 0, 0.7},
 		Width = 30,
 		Height = 30,
@@ -536,6 +540,8 @@ MSQ:AddSkin("LiteStep", {
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
+		-- EdgeTexture = [[Interface\AddOns\Masque\Textures\Cooldown\Edge]],
+		-- PulseTexture = [[Interface\Cooldown\star4]],
 		Width = 30,
 		Height = 30,
 		Point = "CENTER",
@@ -551,14 +557,20 @@ MSQ:AddSkin("LiteStep", {
 ---
 
 MSQ:AddSkin("LiteStep - XLT", {
+	-- API_VERSION = Template.API_VERSION,
+	-- Shape = Template.Shape,
 	Template = "LiteStep",
 
 	-- Info
+	-- Authors = Template.Authors,
 	Description = L["An alternate version of LiteStep without borders."],
+	-- Version = Template.Version,
+	-- Websites = Template.Websites,
 
 	-- UI
-	Title = "XLT",
+	-- Group = Template.Group,
 	Order = 2,
+	Title = "XLT",
 
 	-- Skin
 	Normal = {
