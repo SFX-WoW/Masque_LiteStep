@@ -1,9 +1,11 @@
 ## Interface: 100007
 
 ## Author: StormFX
-## Dependencies: Masque
 ## Title: Masque: LiteStep
 ## Version: @project-version@
+
+## Dependencies: Masque
+## IconTexture: Interface\AddOns\Masque_LiteStep\Textures\Icon
 
 ## Notes: LiteStep skins for Masque.
 ## Notes-deDE: LiteStep-Skin für Masque.
