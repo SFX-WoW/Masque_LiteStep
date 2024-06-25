@@ -25,7 +25,7 @@ local L = Core.Locale
 -- Locals
 ---
 
-local API_VERSION = 100105
+local API_VERSION = 100207
 
 -- Skin Info
 local Authors = {"StormFX", "|cff999999Saynt|r"}
@@ -458,6 +458,10 @@ MSQ:AddSkin("LiteStep", {
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = "Cooldown",
+	SpellAlert = {
+		Height = 30,
+		Width = 30,
+	},
 })
 
 ----------------------------------------
@@ -534,4 +538,8 @@ MSQ:AddSkin("LiteStep - XLT", {
 	-- AutoCastShine = Template.AutoCastShine,
 	-- Cooldown = Template.Cooldown,
 	-- ChargeCooldown = Template.ChargeCooldown,
+	SpellAlert = {
+		Height = 28,
+		Width = 28,
+	},
 })
