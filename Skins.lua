@@ -503,8 +503,16 @@ MSQ:AddSkin("LiteStep", {
 	},
 	-- [ SpellAlert ]
 	SpellAlert = {
-		Height = 30,
-		Width = 30,
+		Height = 36,
+		Width = 36,
+		Classic = {
+			Height = 34,
+			Width = 34,
+		},
+		Thin = {
+			Height = 30,
+			Width = 30,
+		},
 	},
 })
 
@@ -587,7 +595,15 @@ MSQ:AddSkin("LiteStep - XLT", {
 	-- Cooldown = Template.Cooldown,
 	-- ChargeCooldown = Template.ChargeCooldown,
 	SpellAlert = {
-		Height = 28,
-		Width = 28,
+		Height = 36,
+		Width = 36,
+		Classic = {
+			Height = 30,
+			Width = 30,
+		},
+		Thin = {
+			Height = 28,
+			Width = 28,
+		},
 	},
 })
