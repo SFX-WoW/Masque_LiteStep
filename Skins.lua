@@ -506,8 +506,12 @@ MSQ:AddSkin("LiteStep", {
 		Height = 36,
 		Width = 36,
 		Classic = {
-			Height = 34,
-			Width = 34,
+			Height = 32,
+			Width = 32,
+		},
+		Modern = {
+			Height = 32,
+			Width = 32,
 		},
 		Thin = {
 			Height = 30,
@@ -598,6 +602,10 @@ MSQ:AddSkin("LiteStep - XLT", {
 		Height = 36,
 		Width = 36,
 		Classic = {
+			Height = 30,
+			Width = 30,
+		},
+		Modern = {
 			Height = 30,
 			Width = 30,
 		},
