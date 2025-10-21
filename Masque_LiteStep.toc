@@ -4,6 +4,7 @@
 ## Title: Masque: LiteStep
 ## Version: @project-version@
 
+## Category: Masque
 ## Dependencies: Masque
 ## IconTexture: Interface\AddOns\Masque_LiteStep\Textures\Icon
 
