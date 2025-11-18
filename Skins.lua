@@ -25,7 +25,7 @@ local L = Core.Locale
 -- Locals
 ---
 
-local API_VERSION = 110107
+local API_VERSION = 110207
 
 -- Skin Info
 local Authors = {"StormFX", "|cff999999Saynt|r"}
@@ -503,6 +503,10 @@ MSQ:AddSkin("LiteStep", {
 	SpellAlert = {
 		Height = 36,
 		Width = 36,
+		AltGlow = {
+			Height = 46.5,
+			Width = 46.5,
+		},
 		Classic = {
 			Height = 32,
 			Width = 32,
@@ -511,10 +515,15 @@ MSQ:AddSkin("LiteStep", {
 			Height = 32,
 			Width = 32,
 		},
-		Thin = {
-			Height = 30,
-			Width = 30,
+		["Modern-Lite"] = {
+			Height = 33,
+			Width = 33,
 		},
+	},
+	-- [ AssistedCombatHighlight ]
+	AssistedCombatHighlight = {
+		Width = 46.5,
+		Height = 46.5,
 	},
 })
 
@@ -596,9 +605,14 @@ MSQ:AddSkin("LiteStep - XLT", {
 	-- AutoCastShine = Template.AutoCastShine,
 	-- Cooldown = Template.Cooldown,
 	-- ChargeCooldown = Template.ChargeCooldown,
+	-- [ SpellAlerts ]
 	SpellAlert = {
 		Height = 36,
 		Width = 36,
+		AltGlow = {
+			Height = 44,
+			Width = 44,
+		},
 		Classic = {
 			Height = 30,
 			Width = 30,
@@ -607,9 +621,13 @@ MSQ:AddSkin("LiteStep - XLT", {
 			Height = 30,
 			Width = 30,
 		},
-		Thin = {
-			Height = 28,
-			Width = 28,
+		["Modern-Lite"] = {
+			Height = 31.5,
+			Width = 31.5,
 		},
+	},
+	AssistedCombatHighlight = {
+		Width = 44,
+		Height = 44,
 	},
 })
