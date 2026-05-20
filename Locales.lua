@@ -41,7 +41,9 @@ if Locale == "enGB" or Locale == "enUS" then
 --elseif Locale == "frFR" then
 --elseif Locale == "itIT" then
 --elseif Locale == "koKR" then
---elseif Locale == "ptBR" then
+elseif Locale == "ptBR" then
+	L["A port of the original LiteStep skin by Saynt."] = "Uma adaptação da aparência original LiteStep de Saynt."
+	L["An alternate version of LiteStep without borders."] = "Uma versão alternativa da LiteStep sem bordas."
 elseif Locale == "ruRU" then
 	L["A port of the original LiteStep skin by Saynt."] = "Порт оригинального скина LiteStep от Saynt."
 	L["An alternate version of LiteStep without borders."] = "Альтернативная версия LiteStep без границ."
