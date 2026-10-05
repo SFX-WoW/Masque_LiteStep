@@ -32,23 +32,22 @@ Core.Locale = setmetatable(L, {
 -- Localization
 ---
 
-if Locale == "enGB" or Locale == "enUS" then
-	L["A port of the original LiteStep skin by Saynt."] = "A port of the original LiteStep skin by Saynt."
-	L["An alternate version of LiteStep without borders."] = "An alternate version of LiteStep without borders."
-	return
---elseif Locale == "deDE" then
---elseif Locale == "esES" or Locale == "esMX" then
---elseif Locale == "frFR" then
---elseif Locale == "itIT" then
---elseif Locale == "koKR" then
+if Locale == "deDE" then
+--@localization(locale="deDE", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "esES" or Locale == "esMX" then
+--@localization(locale="esES", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "frFR" then
+--@localization(locale="frFR", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "itIT" then
+--@localization(locale="itIT", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "koKR" then
+--@localization(locale="koKR", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "ptBR" then
-	L["A port of the original LiteStep skin by Saynt."] = "Uma adaptação da aparência original LiteStep de Saynt."
-	L["An alternate version of LiteStep without borders."] = "Uma versão alternativa da LiteStep sem bordas."
+--@localization(locale="ptBR", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "ruRU" then
-	L["A port of the original LiteStep skin by Saynt."] = "Порт оригинального скина LiteStep от Saynt."
-	L["An alternate version of LiteStep without borders."] = "Альтернативная версия LiteStep без границ."
---elseif Locale == "zhCN" then
+--@localization(locale="ruRU", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "zhCN" then
+--@localization(locale="zhCN", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "zhTW" then
-	L["A port of the original LiteStep skin by Saynt."] = "這是 Synt 原版 LiteStep 皮膚的移植版。"
-	L["An alternate version of LiteStep without borders."] = "另一個版本的 LiteStep 但沒有邊框。"
+--@localization(locale="zhTW", format="lua_additive_table", handle-unlocalized="ignore")@
 end
